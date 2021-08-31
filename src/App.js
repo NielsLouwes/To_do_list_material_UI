@@ -4,6 +4,7 @@ import Create from "./pages/Create";
 import { createTheme, ThemeProvider } from "@material-ui/core";
 import { purple, grey } from "@material-ui/core/colors";
 import Layout from "./components/Layout";
+import './index.css';
 
 const theme = createTheme({
   palette: {
